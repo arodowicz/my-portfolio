@@ -145,14 +145,36 @@ img {
 }
 .split-layout {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1.3fr 0.9fr;
   gap: 2rem;
-  align-items: flex-start;
+  align-items: start;
 }
 .about p,
 .resume-copy p,
 .resume-bullets li {
   color: var(--muted);
+}
+.about-sidebar {
+  display: grid;
+  gap: 1rem;
+}
+.profile-card {
+  display: grid;
+  gap: 1rem;
+  overflow: hidden;
+  border-radius: 24px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.07);
+}
+.profile-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 4 / 5;
+}
+.profile-copy {
+  padding: 1.25rem;
 }
 .about-highlights {
   display: grid;
