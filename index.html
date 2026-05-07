@@ -1,24 +1,26 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Andrew Rodowicz — Portfolio</title>
+    <title>Andrew Rodowicz — Data Science Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
     <header class="site-header">
         <div class="container header-inner">
-            <h1 class="site-title">Andrew Rodowicz</h1>
+            <div>
+                <p class="eyebrow">Andrew Rodowicz</p>
+                <h1 class="site-title">Data Science Portfolio</h1>
+            </div>
             <nav class="site-nav">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#resume">Resume</a></li>
-                    <li><a href="#projects">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
                 </ul>
             </nav>
         </div>
@@ -26,64 +28,127 @@
 
     <main>
         <section id="home" class="hero">
-            <div class="container">
-                <h2>Welcome!</h2>
-                <p class="lead">Hi — I'm Andrew Rodowicz, a data-focused problem solver. Welcome to my portfolio.</p>
-                <a class="cta" href="#about">Learn more</a>
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Senior Data Scientist</p>
+                    <h2>Turning data into reliable business outcomes.</h2>
+                    <p class="lead">I build end-to-end analytics and machine learning solutions that improve decisions,
+                        automate workflows, and accelerate product delivery for data-driven teams.</p>
+                    <div class="hero-actions">
+                        <a class="cta" href="#resume">View Resume</a>
+                        <a class="secondary" href="#projects">Explore Projects</a>
+                    </div>
+                </div>
+                <div class="hero-image-card">
+                    <img src="headshot.jpg" alt="Headshot of Andrew Rodowicz" class="hero-image" />
+                    <div class="hero-image-caption">
+                        Andrew Rodowicz • Data Science Portfolio
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="about" class="about">
-            <div class="container">
-                <h3>About Me</h3>
-                <p>I am a data science enthusiast with experience in data analysis, machine learning, and visualization.
-                    I enjoy turning data into actionable insights and building reproducible pipelines.</p>
-            </div>
-        </section>
-
-        <section id="skills" class="skills">
-            <div class="container">
-                <h3>Skills</h3>
-                <p>Core data science skills and tools I work with:</p>
-                <ul class="skill-list">
-                    <li><strong>Python:</strong> pandas, numpy, scikit-learn</li>
-                    <li><strong>Machine Learning:</strong> regression, classification, model evaluation</li>
-                    <li><strong>Deep Learning:</strong> TensorFlow / PyTorch (basic models)</li>
-                    <li><strong>Data Visualization:</strong> matplotlib, seaborn, Plotly</li>
-                    <li><strong>Data Engineering:</strong> SQL, ETL concepts, data cleaning</li>
-                    <li><strong>Tools:</strong> Git, Jupyter, Docker (basic)</li>
-                </ul>
+            <div class="container split-layout">
+                <div>
+                    <h3>About Me</h3>
+                    <p>I am an analytical leader with practical experience in data science, machine learning, and advanced
+                        analytics. I deliver polished models, clean data pipelines, and reproducible visualizations for
+                        business-critical decisions.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <strong>Specialty</strong>
+                        <p>Predictive modeling, time series analysis, and production-ready analytics.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <strong>Experience</strong>
+                        <p>Data-driven projects spanning telecommunication churn, financial recovery, sales forecasting,
+                            and customer behavior.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="resume" class="resume">
             <div class="container">
-                <h3>Resume</h3>
-                <p>You can view or download my resume below.</p>
-                <div class="resume-embed">
-                    <iframe src="Andrew-Rodowicz_Resume.pdf" title="Andrew Rodowicz Resume" frameborder="0"
-                        loading="lazy"></iframe>
+                <div class="section-heading">
+                    <h3>Resume</h3>
+                    <p>Download or review the resume to see detailed experience, education, and technical expertise.</p>
                 </div>
-                <p style="margin-top:.75rem;"><a class="cta" href="Andrew-Rodowicz_Resume.pdf" download>Download Resume
-                        (PDF)</a></p>
+                <div class="resume-grid">
+                    <div class="resume-copy">
+                        <ul class="resume-bullets">
+                            <li>Data science leadership with strong analytics and model deployment experience.</li>
+                            <li>Proven project work in time series forecasting, churn prediction, and recovery modeling.</li>
+                            <li>Clear communication of insights through dashboards and executive-ready reports.</li>
+                        </ul>
+                        <a class="cta" href="Andrew-Rodowicz_Resume.pdf" download>Download Resume (PDF)</a>
+                    </div>
+                    <div class="resume-embed">
+                        <iframe src="Andrew-Rodowicz_Resume.pdf" title="Andrew Rodowicz Resume" frameborder="0"
+                            loading="lazy"></iframe>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="projects" class="projects">
             <div class="container">
-                <h3>Projects</h3>
-                <p>Here are some of my projects. Click the links to view the code and details.</p>
-                <ul class="project-list">
-                    <li><a href="https://github.com/arodowicz/video_game_sales_forcast">video_game_sales_forcast</a>
-                    </li>
-                </ul>
+                <div class="section-heading">
+                    <h3>Highlighted Projects</h3>
+                    <p>Featured repositories with strong outcomes in forecasting, classification, and optimization.</p>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <h4>Time Series Forecasting</h4>
+                        <p>Forecasting and trend analysis for complex temporal data.</p>
+                        <a href="https://github.com/arodowicz/Time_Series" target="_blank" rel="noopener">View on GitHub</a>
+                    </article>
+                    <article class="project-card">
+                        <h4>Telecom Churn Prediction</h4>
+                        <p>Churn modeling and customer retention analysis for telecommunications.</p>
+                        <a href="https://github.com/arodowicz/telecom-churn-prediction" target="_blank" rel="noopener">View on GitHub</a>
+                    </article>
+                    <article class="project-card">
+                        <h4>Gold Recovery</h4>
+                        <p>Data-driven recovery optimization using predictive analytics.</p>
+                        <a href="https://github.com/arodowicz/gold_recovery" target="_blank" rel="noopener">View on GitHub</a>
+                    </article>
+                    <article class="project-card">
+                        <h4>Oil Well Prediction</h4>
+                        <p>Machine learning models for oil well output and performance forecasting.</p>
+                        <a href="https://github.com/arodowicz/oil_well_prediction" target="_blank" rel="noopener">View on GitHub</a>
+                    </article>
+                    <article class="project-card">
+                        <h4>User Behavior Analytics</h4>
+                        <p>Customer behavior modeling and segmentation for product optimization.</p>
+                        <a href="https://github.com/arodowicz/user_behavior_ml" target="_blank" rel="noopener">View on GitHub</a>
+                    </article>
+                    <article class="project-card">
+                        <h4>IMDB Reviews Sentiment</h4>
+                        <p>Text classification and sentiment analysis for movie review data.</p>
+                        <a href="https://github.com/arodowicz/IMDB-reviews" target="_blank" rel="noopener">View on GitHub</a>
+                    </article>
+                    <article class="project-card">
+                        <h4>Shop App Train Time</h4>
+                        <p>Performance testing and model training optimization for retail applications.</p>
+                        <a href="https://github.com/arodowicz/shop-app-train-time" target="_blank" rel="noopener">View on GitHub</a>
+                    </article>
+                    <article class="project-card">
+                        <h4>Video Game Sales Forecast</h4>
+                        <p>Sales forecasting for game titles using historical and market data.</p>
+                        <a href="https://github.com/arodowicz/video_game_sales_forcast" target="_blank" rel="noopener">View on GitHub</a>
+                    </article>
+                </div>
             </div>
         </section>
     </main>
 
     <footer class="site-footer">
-        <div class="container">
-            <p>&copy; <span id="year"></span> Andrew Rodowicz — Built with HTML & CSS</p>
+        <div class="container footer-inner">
+            <p>&copy; <span id="year"></span> Andrew Rodowicz</p>
+            <p>Built for GitHub Pages with clean HTML and responsive CSS.</p>
         </div>
     </footer>
 
