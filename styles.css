@@ -77,13 +77,16 @@ img {
 }
 
 .hero {
-  padding: 4rem 0 3rem;
+  padding: 3.5rem 0 2.5rem;
 }
-.hero-grid {
+.header-panel {
   display: grid;
-  grid-template-columns: 1.4fr 1fr;
+  grid-template-columns: 0.85fr 1.45fr;
   gap: 2rem;
   align-items: center;
+}
+.header-profile {
+  max-width: 300px;
 }
 .hero-copy h2 {
   margin: 0;
